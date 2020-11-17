@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e71d9a0.chunk.css",
+    "main.js": "/static/js/main.a89db901.chunk.js",
+    "main.js.map": "/static/js/main.a89db901.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6c77b16c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6c77b16c.js.map",
+    "static/js/2.f0baef6f.chunk.js": "/static/js/2.f0baef6f.chunk.js",
+    "static/js/2.f0baef6f.chunk.js.map": "/static/js/2.f0baef6f.chunk.js.map",
+    "static/js/3.fea35ddf.chunk.js": "/static/js/3.fea35ddf.chunk.js",
+    "static/js/3.fea35ddf.chunk.js.map": "/static/js/3.fea35ddf.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2e71d9a0.chunk.css.map": "/static/css/main.2e71d9a0.chunk.css.map",
+    "static/js/2.f0baef6f.chunk.js.LICENSE.txt": "/static/js/2.f0baef6f.chunk.js.LICENSE.txt",
+    "static/media/dead.c5805396.svg": "/static/media/dead.c5805396.svg",
+    "static/media/life.90af0a85.svg": "/static/media/life.90af0a85.svg",
+    "static/media/living.c8acbdfa.svg": "/static/media/living.c8acbdfa.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c77b16c.js",
+    "static/js/2.f0baef6f.chunk.js",
+    "static/css/main.2e71d9a0.chunk.css",
+    "static/js/main.a89db901.chunk.js"
+  ]
+}
