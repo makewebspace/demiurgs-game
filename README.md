@@ -1,4 +1,4 @@
-# Get Started With Demiurgs Game
+# Demiurgs Game
 The game was developed to pass the test task.
 
 ## The task description
