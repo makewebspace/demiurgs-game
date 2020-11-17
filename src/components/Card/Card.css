@@ -7,7 +7,6 @@
   background: #FFF;
   border-radius: 8px;
   text-align: left;
-  line-height: 1.4;
 }
 
 .Card-title,
@@ -23,9 +22,5 @@
 
 .Card-title {
   font-weight: 500;
-  font-size: 20px;
-}
-
-.Card-description {
-  font-size: 14px;
+  font-size: 1.43em;
 }

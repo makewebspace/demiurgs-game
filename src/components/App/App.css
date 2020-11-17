@@ -1,17 +1,14 @@
-:root {
-  --base-padding: 16px;
-}
-
 .App {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 100vh;
-  max-height: 100vh;
-  max-width: 800px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  height: 100vh;
+  max-width: 800px;
+  font-size: 14px;
+  line-height: 1.4;
 }
 
 .App-header,
@@ -22,27 +19,26 @@
 .App-main {
   overflow-y: auto;
   margin-bottom: auto;
-  max-height: calc(100% - (60px + 70px));
+}
+
+.App-title,
+.App-FAB {
+  font-weight: 500;
+  color: #FFF;
 }
 
 .App-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.4;
-  color: #FFFFFF;
+  font-size: 1.43em;
   margin: 0;
 }
 
 .App-FAB {
   width: 100%;
-  color: #FFFFFF;
   background: #5A3472;
   border: 1px solid transparent;
   border-radius: 4px;
   text-transform: uppercase;
   padding: 11px 0;
-  font-weight: 500;
-  font-size: 14px;
   line-height: 1;
   outline: none;
 }
