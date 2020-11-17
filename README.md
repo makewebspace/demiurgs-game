@@ -1,5 +1,5 @@
 # Demiurgs Game
-The game was developed to pass the test task.
+The game was developed to pass the test task. As a result, you can check the [demo](https://makewebspace.github.io/demiurgs-game/).
 
 ![Actions Status](https://github.com/makewebspace/demiurgs-game/workflows/build-and-deploy/badge.svg)
 
