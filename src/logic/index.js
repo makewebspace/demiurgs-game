@@ -1,15 +1,5 @@
-import {
-  DeadCell,
-  LivingCell,
-  LifeCell,
-} from "./entities";
-
-const tossCoin = () => Boolean(Math.floor(Math.random() * 2));
-
-const makePredicateFor = (entity, threshold = 2) => {
-  const satisfyTheCondition = ({ id }) => id === entity.id;
-  return (list) => list.length > threshold && list.slice(-threshold).every(satisfyTheCondition);
-};
+import { DeadCell, LivingCell, LifeCell } from "./entities";
+import { tossCoin, makePredicateFor } from "./helpers";
 
 export const hasAliveCondition = makePredicateFor(LivingCell, 2);
 export const hasDeadCondition = makePredicateFor(DeadCell, 3);
