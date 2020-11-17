@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
+  max-height: 100vh;
   max-width: 800px;
   text-align: center;
   margin-left: auto;
@@ -16,6 +17,12 @@
 .App-header,
 .App-footer {
   padding: var(--base-padding);
+}
+
+.App-main {
+  overflow-y: auto;
+  margin-bottom: auto;
+  max-height: calc(100% - (60px + 70px));
 }
 
 .App-title {
