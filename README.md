@@ -1,7 +1,7 @@
 # Demiurgs Game
 The game was developed to pass the test task.
 
-![Actions Status](https://github.com/makewebspace/demiurgs-game/workflows/deploy/badge.svg)
+![Actions Status](https://github.com/makewebspace/demiurgs-game/workflows/build-and-deploy/badge.svg)
 
 ## The task description
 A mobile developer has made an app for the demiurge Shambambukli.
