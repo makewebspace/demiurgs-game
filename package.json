@@ -1,7 +1,15 @@
 {
   "name": "demiurgs-game",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://makewebspace.github.io/demiurgs-game/",
+  "bugs": {
+    "url": "https://github.com/makewebspace/demiurgs-game/issues"
+  },
+  "author": {
+    "name": "Aidar Shaikhutdin",
+    "email": "makeweb.space@gmail.com"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
