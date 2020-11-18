@@ -1,4 +1,4 @@
-export const tossCoin = () => Boolean(Math.floor(Math.random() * 2));
+export const tossCoin = (randomFn) => Boolean(randomFn());
 
 export const makePredicateFor = (entity, threshold = 2) => {
   const satisfyTheCondition = ({ id }) => id === entity.id;
