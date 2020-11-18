@@ -1,8 +1,10 @@
 import "./Card.css"
 
-function Card({ icon, title, description }) {
+export const CELL_ID = 'cell';
+
+function Card({ icon, title, description, testId = 0 }) {
   return (
-    <div className="Card">
+    <div className="Card" data-testid={`${CELL_ID}-${testId}`}>
       <div className="Card-icon">
         <img src={icon} alt={title} width="40" height="40" />
       </div>
