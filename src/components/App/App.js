@@ -3,20 +3,14 @@ import { useState, useEffect, useRef } from 'react';
 import Card from "../Card/Card";
 import updateState from '../../logic';
 
-const TITLE_TEXT = 'Клеточное наполнение';
-const FAB_TEXT = 'Cотворить';
+export const TITLE_TEXT = 'Клеточное наполнение';
+export const FAB_TEXT = 'Cотворить';
 
 function App() {
   const mainEl = useRef(null);
   const [cellList, setCellList] = useState([]);
   const handleClick = () => setCellList(updateState(cellList));
-  const toComponent = ({ title, description, icon }, idx) => {
-    return <Card key={idx}
-                 title={title}
-                 description={description}
-                 icon={icon}
-           />;
-  };
+  const toComponent = (props, idx) => <Card key={idx} {...props}/>;
   useEffect(() => {
     const cardList = mainEl.current.children;
     const lastElement = cardList[cardList.length - 1];

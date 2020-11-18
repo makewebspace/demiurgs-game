@@ -1,8 +1,11 @@
 import { DeadCell, LivingCell, LifeCell } from "./entities";
 import { tossCoin, makePredicateFor } from "./helpers";
 
-export const hasAliveCondition = makePredicateFor(LivingCell, 2);
-export const hasDeadCondition = makePredicateFor(DeadCell, 3);
+const DEAD_CELL_COUNT = 3;
+const LIVING_CELL_COUNT = 2;
+
+export const hasAliveCondition = makePredicateFor(LivingCell, LIVING_CELL_COUNT);
+export const hasDeadCondition = makePredicateFor(DeadCell, DEAD_CELL_COUNT);
 
 const updateState = (state) => {
   const newCell = tossCoin() ? LivingCell : DeadCell;
