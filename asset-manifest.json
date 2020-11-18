@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/demiurgs-game/static/css/main.2e71d9a0.chunk.css",
-    "main.js": "/demiurgs-game/static/js/main.88ceb47d.chunk.js",
-    "main.js.map": "/demiurgs-game/static/js/main.88ceb47d.chunk.js.map",
+    "main.js": "/demiurgs-game/static/js/main.4f933b4b.chunk.js",
+    "main.js.map": "/demiurgs-game/static/js/main.4f933b4b.chunk.js.map",
     "runtime-main.js": "/demiurgs-game/static/js/runtime-main.04c01186.js",
     "runtime-main.js.map": "/demiurgs-game/static/js/runtime-main.04c01186.js.map",
     "static/js/2.66c6e6bc.chunk.js": "/demiurgs-game/static/js/2.66c6e6bc.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.04c01186.js",
     "static/js/2.66c6e6bc.chunk.js",
     "static/css/main.2e71d9a0.chunk.css",
-    "static/js/main.88ceb47d.chunk.js"
+    "static/js/main.4f933b4b.chunk.js"
   ]
 }
